@@ -21,7 +21,8 @@ section, summary, time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+  color: black; }
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -1452,9 +1453,12 @@ table {
     table tbody tr:nth-child(2n + 1) {
       background-color: rgba(230, 235, 237, 0.25); }
   table td {
-    padding: 0.75em 0.75em; }
+    padding: 0.75em 0.75em; 
+    color: black;}
+    
   table th {
-    color: #3d4449;
+     /*color: #3d4449; */
+    color: black;
     font-size: 0.9em;
     font-weight: 600;
     padding: 0 0.75em 0.75em 0.75em;
